@@ -90,6 +90,9 @@ body{
             padding: 5px;
             margin-bottom: 4px;
         }
+    .col img{
+            width: 70px;
+        }
     
     
 }
