@@ -81,6 +81,15 @@ body{
         .col{
             width: 25%;
         }
+     .films p{
+            font-size: 13px;
+            
+        }
+        #one{
+            display: block;
+            padding: 5px;
+            margin-bottom: 4px;
+        }
     
     
 }
