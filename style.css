@@ -4,7 +4,7 @@
 }
 body{
     background-color: #ffffff;
-    position: fixed;
+    
 }
 .container{
     background-color: #3b3d3a;
@@ -34,7 +34,7 @@ body{
 .sort-by{
     height: 100%;
     width: 200px;
-    position:fixed;
+    position: absolute;
     z-index: 1;
     left: 0;
     background-color: #e9e9e9;
@@ -77,6 +77,12 @@ body{
     margin: 20px 0;
     font-family: 'Ubuntu', sans-serif;
 }
+.two{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+}
+
 .films p{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -94,6 +100,10 @@ body{
         .films p{
             font-size: 13px;
             
+        }
+        .two{
+            font-size: 10px;
+            font-family: 'Ubuntu', sans-serif;
         }
         #one{
             display: block;
