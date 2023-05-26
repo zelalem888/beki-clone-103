@@ -70,6 +70,9 @@ body{
 .col img{
     width: 130px;
 }
+.films{
+   margin-left: 250px; 
+}
 .films h1{
     margin: 20px 0;
     font-family: 'Ubuntu', sans-serif;
@@ -96,6 +99,7 @@ body{
             display: block;
             padding: 5px;
             margin-bottom: 4px;
+        
         }
         .col img{
             width: 70px;
@@ -113,11 +117,14 @@ body{
     }
     .bi{
         padding-left: 5px;
+        margin-right: 5px;
     }
     .hr1{
         display: none;
     }
-    .films{
-        margin-left: 130px;
-    }
+   .films{
+    margin-left: 100px;
+    
+    
+}
 }
