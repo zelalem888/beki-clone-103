@@ -75,10 +75,4 @@ body{
 .films p{
     font-family: 'Ubuntu', sans-serif;
 }
-@media (min-width: 480px){
 
-    .col{
-        width: 25%;
-    }
-
-}
