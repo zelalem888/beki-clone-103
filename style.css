@@ -19,14 +19,28 @@ body{
     padding: 10px;
     border: 1px solid black;
     border-radius: 20px;
+    
+}
+.him{
+    display: inline-block;
+}
+
+.icon{
+    color: #e9e9e9;
+    display: inline;
+    float: right;
+    visibility: hidden;
+    
+    
 }
 .search{
     outline: none;
 }
-.fa-solid{
+.fa-magnifying-glass{
     color: #000000;
     cursor: pointer;
 }
+
 .bi{
     margin-right: 15px;
     padding-left: 20px; 
@@ -88,6 +102,25 @@ body{
 }
 
 @media (max-width: 768px) {
+    .icon{
+        visibility: visible;
+        padding-top: 10px;
+    }
+  
+    .container{
+        padding: 10px 75px 5px 50px;
+
+        
+    }
+    .oneone{
+
+        display: inline !important;
+    }
+    .him{
+        display:none;
+    }
+
+
 
 
 
@@ -108,12 +141,12 @@ body{
         #one{
             display: block;
             padding: 5px;
-            margin-bottom: 4px;
         
         }
         .col img{
             width: 70px;
         }
+
     
     .sort-by{
         width: 100px;
